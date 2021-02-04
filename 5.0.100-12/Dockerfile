@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0.100
+FROM mcr.microsoft.com/dotnet/sdk:5.0
 RUN apt-get update && apt-get install ca-certificates apt-transport-https -y
 RUN apt-get install libc6-dev libgdiplus libx11-dev -y
 RUN apt-get update && apt-get install -y gnupg2
